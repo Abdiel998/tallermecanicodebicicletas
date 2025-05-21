@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encabezado con Imagen</title>
+    <style>
+		header {
+            text-align: center; 
+            padding: 90px;  
+           background: no-repeat center/100% url("Captura de pantalla 2025-03-26 091605.png") 
+				
+		    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h3 {
+      font-size: 2rem;
+      color: #264653;
+      margin-bottom: 1rem;
+      border-bottom: 3px solid #2a9d8f;
+      display: inline-block;
+      padding-bottom: 0.3rem;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+      gap: 2rem;
+    }
+    .service-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(42, 157, 143, 0.3);
+    }
+    .service-card h4 {
+      margin-bottom: 0.7rem;
+      color: #2a9d8f;
+    }
+    .about-text {
+      font-size: 1.1rem;
+      color: #444;
+      max-width: 700px;
+    }
+    .contact-form {
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      max-width: 600px;
+    }
+    .form-group {
+      margin-bottom: 1.2rem;
+    }
+    label {
+      display: block;
+      margin-bottom: 0.4rem;
+      font-weight: 600;
+      color: #264653;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      padding: 0.7rem;
+      font-size: 1rem;
+      transition: border-color 0.3s ease;
+      resize: vertical;
+    }
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    textarea:focus {
+      outline: none;
+      border-color: #2a9d8f;
+      box-shadow: 0 0 5px #2a9d8f;
+    }
+    button {
+      background-color: #2a9d8f;
+      border: none;
+      padding: 0.75rem 1.8rem;
+      color: white;
+      font-weight: 700;
+      border-radius: 5px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #21867a;
+    }
+    footer {
+      background: #264653;
+      color: white;
+      text-align: center;
+      padding: 1rem 1rem;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      .hero-content h2 {
+        font-size: 2.2rem;
+      }
+      .services {
+        grid-template-columns: 1fr;
+      }
+    }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+			<font color="white">
+			BiciReparaciónes
+				</font>
+				</h1>
+        <h2><font color="white">Taller Mecanico de Bicicletas</font></h2>
+	
+	<nav id="menu">	
+	 <ul>
+		<a href="sobre nosotros.html"><img src="Captura de pantalla 2025-04-01 174803.png" width="179" height="51"></a>  
+		<a href="servicios.html"><img src="Captura de pantalla 2025-04-02 084210.png" width="179" height="51"></a>
+	 </ul>
+	</nav>
+		
+	
+    </header>
+	<br> Bienvenido a Bicireparaciones, Tu Taller de Bicicletas de Confianza</br>
+
+<br>En BiciReparaciones, nos apasionan las bicicletas tanto como a ti. Somos un taller especializado en reparación, mantenimiento y personalización de bicicletas, comprometidos con ofrecerte un servicio de calidad para que disfrutes al máximo de cada pedaleo. Ya sea que necesites un ajuste rápido, una restauración completa o simplemente asesoría, estamos aquí para ayudarte.</br>
+
+<br>¡Visítanos y mantén tu bici en perfectas condiciones! </br>
+
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .timeline {
+            position: relative;
+            max-width: 600px;
+            margin: auto;
+        }
+        .timeline-event {
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+            position: relative;
+        }
+        .timeline-event::before {
+            content: '';
+            position: absolute;
+            left: -15px;
+            top: 10px;
+            width: 10px;
+            height: 10px;
+            background: #007bff;
+            border-radius: 50%;
+        }
+        .timeline-event h3 {
+            margin: 0;
+            color:#1C9E27;
+        }
+        .timeline-event p {
+            margin: 5px 0;
+        }
+    </style>
+<body>
+
+<h1>¿Como es nuestro proceso?</h1>
+<div class="timeline">
+    <div class="timeline-event">
+        <h3>ENTREGA TU BICICLETA</h3>
+        <p>Visitanos en nuestro local para poder realizar sus servicios necesarios. Confíe en nosotros para manejar sus necesidades con eficiencia y experiencia.</p>
+    </div>
+    <div class="timeline-event">
+        <h3>DIAGNÓSTICO</h3>
+        <p>Realizaremos una minusiosa revision a tu bicicleta y asi podremos decirte que es lo que se necesita para su buen funcionamiento.</p>
+    </div>
+    <div class="timeline-event">
+        <h3>REPARACIÓN</h3>
+        <p>Una vez que se nos haya autorizado el presupuesto de la reparación, sustituiremos las piezas o si es posible repararemos los componentes dañados. En cuanto terminemos, se te notificará inmediatamente.</p>
+    </div>
+    <div class="timeline-event">
+        <h3>ENTREGA Y PRUEBAS</h3>
+        <p>Te hacemos una demostración en vivo de tu equipo funcionando. ¡Está listo para que lo disfrutes de nuevo!</p>
+    </div>
+
+</div> 
+	
+	<section id="contact">
+      <h3>Contacto</h3>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 BikeFix - Taller Mecánico de Bicicletas. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const name = this.name.value.trim();
+      const email = this.email.value.trim();
+      const message = this.message.value.trim();
+      if (!name) {
+        alert('Por favor, ingresa tu nombre.');
+        this.name.focus();
+        return;
+      }
+      if (!email || !email.includes('@')) {
+        alert('Por favor, ingresa un correo electrónico válido.');
+        this.email.focus();
+        return;
+      }
+      if (!message) {
+        alert('Por favor, escribe un mensaje.');
+        this.message.focus();
+        return;
+      }
+      alert('Gracias por contactarnos, ' + name + '! Te responderemos pronto.');
+      this.reset();
+    });
+  </script>
+</body>
+	
+	<header>
+		<h1><big><font color="#FFFFFF">CONTACTANOS</font></big></h1>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .icon-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .icon {
+            text-align: center;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 100px;
+        }
+        .icon i {
+            font-size: 40px;
+            color: #007bff;
+        }
+    </style>
+
+<div class="icon-container">
+    
+    <div class="icon">
+        <i class="fas fa-location"></i>
+        <p>Ubicación</p>
+		<br>Estado de Mexico, Amanalco de becerra, San bartolo C.P 51260
+	
+    </div>
+    
+    <div class="icon">
+        <i class="fas fa-envelope"></i>
+        <p>Contacto</p>
+		<br><big>722 291 9478 </big></br>
+    </div>
+</div>
+
+
+	</header>
+</body>
+</html>
